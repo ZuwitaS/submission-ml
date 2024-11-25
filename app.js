@@ -6,7 +6,7 @@ const path = require('path');
 
 const init = async () => {
     const server = Hapi.server({
-        port: process.env.PORT || 3000,
+        port: process.env.PORT || 8080,
         host: 'localhost',
         routes: {
             payload: {
